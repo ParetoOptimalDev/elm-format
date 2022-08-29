@@ -1,1 +1,1 @@
-let pkgs = import <nixpkgs> {}; in pkgs.pkgsCross.aarch64-multiplatform-musl.pkgsStatic.elmPackages.elm-format
+let pkgs = import <nixpkgs> {}; in pkgs.pkgsCross.aarch64-darwin.pkgsStatic.elmPackages.elm-format
